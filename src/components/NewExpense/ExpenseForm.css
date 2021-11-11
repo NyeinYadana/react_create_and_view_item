@@ -1,0 +1,37 @@
+.row {
+    display: flex; 
+    justify-content: space-between;   
+}
+.expense-input-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    flex-grow: 1;
+    padding: 10px;
+}
+.expense-input-group label {
+   font-size: 24px;
+}
+.expense-input-group input {
+  min-height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+.expense-input-group button {
+    border-radius: 5px;
+    background-color: #103a38;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;    
+    min-height: 50px;
+    max-width: 300px;    
+    transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+}
+.expense-input-group button:hover {
+    background-color: transparent;
+    border: 1px solid #103a38;
+    color: #000000;
+}

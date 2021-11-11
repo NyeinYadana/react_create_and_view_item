@@ -1,0 +1,11 @@
+.expense-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.expense-item h2 {
+    color: #ffff;
+}
+h2{
+  flex-grow: 1;
+}

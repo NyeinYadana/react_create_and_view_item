@@ -1,0 +1,16 @@
+.date-wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: #a3d6bef0;  
+    border-radius: 15px;
+    min-width: 150px;
+    height: 100%;
+}
+
+.date-wrap .month {
+    font-size: 16px;
+}
+
+.date-wrap .year {
+    font-size: 26px;
+}
